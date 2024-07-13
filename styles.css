@@ -1,0 +1,161 @@
+
+  #home , #FERRARI,#BMW,#PORSCHE,#LAMBORGHINI {
+    font-size: 70px;
+    font-family: "Bebas Neuezsans-serif";
+    letter-spacing: 0.25rem;
+
+
+    
+  }
+  .foot{
+    
+    margin-bottom: -100px;
+  }
+  .move{
+    position: relative;
+    font-size: 14vw;
+    color: transparent;
+    -webkit-text-stroke: 0.05vw #3B71CA;
+   
+  }
+  .move::before{
+    content: "LAST ARRIVALS...";
+    position: absolute;
+    width: 0;
+    
+    color: #3B71CA;
+    -webkit-text-stroke: 0vw #3B71CA;
+    border-right: 1px solid #3B71CA;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+
+
+  }
+  @keyframes animate 
+  {
+    0%{
+      width: 0;
+    }
+    70%{
+      width: 100%;
+    }
+  }
+
+
+  .f{
+    position: relative;
+    font-size: 14vw;
+    color: transparent;
+    -webkit-text-stroke: 0.05vw #3B71CA;
+   
+  }
+  .f::before{
+    content: "FERRARI";
+    position: absolute;
+    width: 0;
+    
+    color: #3B71CA;
+    -webkit-text-stroke: 0vw #3B71CA;
+    border-right: 1px solid #3B71CA;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+
+
+  }
+  @keyframes animate 
+  {
+    0%{
+      width: 0;
+    }
+    70%{
+      width: 100%;
+    }
+  }
+  
+  .p{
+    position: relative;
+    font-size: 14vw;
+    color: transparent;
+    -webkit-text-stroke: 0.05vw #3B71CA;
+   
+  }
+  .p::before{
+    content: "PORSCHE";
+    position: absolute;
+    width: 0;
+    
+    color: #3B71CA;
+    -webkit-text-stroke: 0vw #3B71CA;
+    border-right: 1px solid #3B71CA;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+
+
+  }
+  @keyframes animate 
+  {
+    0%{
+      width: 0;
+    }
+    70%{
+      width: 100%;
+    }
+  }
+  .l{
+    position: relative;
+    font-size: 14vw;
+    color: transparent;
+    -webkit-text-stroke: 0.05vw #3B71CA;
+   
+  }
+  .l::before{
+    content: "LAMBORGHINI";
+    position: absolute;
+    width: 0;
+    
+    color: #3B71CA;
+    -webkit-text-stroke: 0vw #3B71CA;
+    border-right: 1px solid #3B71CA;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+
+
+  }
+  @keyframes animate 
+  {
+    0%{
+      width: 0;
+    }
+    70%{
+      width: 100%;
+    }
+  }
+  .b{
+    position: relative;
+    font-size: 14vw;
+    color: transparent;
+    -webkit-text-stroke: 0.05vw #3B71CA;
+   
+  }
+  .b::before{
+    content: "BMW";
+    position: absolute;
+    width: 0;
+    
+    color: #3B71CA;
+    -webkit-text-stroke: 0vw #3B71CA;
+    border-right: 1px solid #3B71CA;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+
+
+  }
+  @keyframes animate 
+  {
+    0%{
+      width: 0;
+    }
+    70%{
+      width: 100%;
+    }
+  }
